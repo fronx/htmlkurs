@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(http://www.memoriescomplete.com/images/blog/Blog_Background_Monkey_Business.jpg) top center repeat-y;
+  font-size: 14pt;
+  font-family: Georgia, Times;
+  color: white;
+}
+
+div.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  position: relative;
+  color: black;
+  clear: both;
+  padding: 0.3em 0 0.7em 0;
+}
+
+h1, h2 {
+  background: #D7B687;
+  padding: 0.5em 1em;
+  margin: 1em 0 0 0;
+}
+
+a {
+  color: #D7B687;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5em;
+  padding: 1em 0;
+}
+
+a:visited { color: #D7B687; }
+a:hover {
+  color: white;
+  border-bottom: 3px solid #D7B687;
+}
+
+pre {
+  font-size: 11pt;
+  color: #00ff00;
+  background: #5C4839;
+}
+
+ul li {
+  margin-left: 2em;
+}
+
+/* ------------- NAVI ------------- */
+.navi {
+  clear: both;
+}
+
+.navi ul {
+  list-style-type: none; /* keine blubbel */
+  padding: 0; /* keine einrückung */
+  display: block;
+}
+
+.navi ul li span {
+  color: black;
+  padding: 1em;
+  margin: 0 2px;
+  border: 2px solid black;
+  border-top: 0;
+  background: #CDBB95;
+  display: block;
+  float: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navi ul li a span {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.navi ul li a:hover span {
+  background: white;
+  color: black;
+}
+
+.clear { clear: both; }
+
+/* ------------- Liste: Weitere Themen ------------- */
+.weitere ul {
+  background: #705C45;
+  padding: 1em 0 0.5em 0;
+  border: 2px solid white;
+}
+
+.weitere ul ul {
+  border: 0; padding: 0;
+}
+
+.weitere ul li {
+  padding: 0.4em 0;
+}
+
+.weitere {
+  padding-bottom: 2em;
+}

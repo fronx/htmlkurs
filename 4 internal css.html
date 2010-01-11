@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>internal css</title>
+    <style type="text/css">
+      a { text-decoration: none; }
+      a:visited { color: #aaa; }
+      a:hover { color: black; }
+      h1 { font-size: 42pt; }
+      h1, h2 { font-family: "Impact"; }
+
+      p {
+        border-bottom: 1px solid #aaaaaa;
+      }
+
+      body {background-image:url("images/back40.gif")}
+
+      dl {
+        font-family: Courier;
+        background-color: #abcabc;
+        padding: 0.5em;
+        font-weight: bold;
+      }
+
+      dl dd { font-weight: normal; }
+      dl dt span { font-weight: normal; }
+      
+      pre {
+        margin-left: 4em;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="navi">
+      <li><a href="1 html4.html">1</a></li>
+      <li><a href="2 tags.html">2</a></li>
+      <li><a href="3 css zen garden.html">3</a></li>
+      <li><a href="4 internal css.html">4</a></li>
+      <li><a href="5 external css.html">5</a></li>
+    </ul>
+
+    <h1>Basic CSS (erstmal intern)</h1>
+    <p>Hier kommt jetzt mal eine <a href="http://www.google.com/search?q=html+dl"><b>d</b>efinition <b>l</b>ist</a>:</p>
+    <dl>
+      <dt>selector <span>/* welche(s) element(e)? */</span> {</dt>
+        <dd>/* beschreibung des aussehens dieser elemente */</dd>
+        <dd>eigenschaft: wert(e);</dd>}
+    </dl>
+    <pre>
+h1 {font-size: 42pt; }
+
+h1, h2 { font-family: "Impact"; }
+
+p { border-bottom: 1px solid #aaaaaaa; }
+
+dl {
+  background-color: #abcabc;
+  padding: 1em;
+}
+
+dl dd {
+  font-weight: normal;
+}
+    </pre>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <p>
+      p
+    </p>
+    <p>
+      p noch ein <span>/hier ist das span/</span> absatz
+    </p>
+    <div>
+      div1
+    </div>
+    <div>
+      div2
+    </div>
+    <ul>unordered list (ul)
+      <li>list item 1</li>
+      <li>list item 2 und <a href="http://google.com/">hier ist ein link</a>.</li>
+    </ul>
+    <ol>ordered list (ol)
+      <li>list item 1</li>
+      <li>list item 2</li>
+    </ol>
+  </body>
+</html>
